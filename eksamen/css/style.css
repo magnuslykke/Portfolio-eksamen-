@@ -1,0 +1,174 @@
+@font-face {
+  font-family: montserrat;
+  src: url(../design/fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+  background-image: url(../design/backgrounds/background_15.png);
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  font-family: montserrat;
+  color: rgb(253, 253, 253);
+  font-size: 22px;
+}
+
+a:hover {
+  background-color: #f5a9e3;
+  color: white;
+}
+
+h1 {
+  font-family: montserrat;
+  margin: 0px;
+  font-size: 68px;
+}
+
+h2 {
+  font-family: montserrat;
+  font-size: 31px;
+}
+
+.midtbox {
+  position: absolute;
+  background-color: white;
+
+  top: 25%;
+  left: 38%;
+  /* padding: 48px 80px 48px 80px; */
+  padding: 3% 5% 3% 5%;
+  width: 200px;
+}
+
+.h1_a {
+  letter-spacing: 20px;
+}
+
+.h1_b {
+  letter-spacing: 28px;
+}
+
+.h1_c {
+  letter-spacing: 38.5px;
+}
+
+.navn {
+  font-family: montserrat;
+  position: absolute;
+  bottom: 3.7%;
+  left: 50px;
+  color: white;
+  font-size: 140%;
+}
+
+.stilling {
+  font-family: montserrat;
+  position: absolute;
+  bottom: 3.7%;
+  left: 370px;
+  color: white;
+  font-size: 140%;
+}
+
+.semester {
+  font-family: montserrat;
+  position: absolute;
+  bottom: 3.7%;
+  left: 620px;
+  color: white;
+  font-size: 140%;
+}
+
+/* -----OM MIG---------*/
+
+.ommig {
+  background-color: white;
+  margin: 5%;
+}
+
+.grid_1_1ommig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5% 5% 0% 5%;
+  margin: 5%;
+  background-color: white;
+}
+
+img {
+  position: relative;
+  left: 15%;
+  max-width: 100%;
+}
+
+.img_cv {
+  max-width: 75%;
+}
+
+.img_cv1 {
+  max-width: 75%;
+  padding-bottom: 10%;
+}
+
+/* -----KONTAKT HTML------ */
+
+.kontakt {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: white;
+  font-size: 200%;
+  padding: 4%;
+  margin: 3% 15% 5% 15%;
+}
+
+.kontakt p {
+  margin-top: 0%;
+}
+
+.grid_1_1_1 {
+  display: flex;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.kontakt_a {
+  font-family: montserrat;
+  font-size: 100%;
+  color: black;
+  margin-left: 0%;
+  margin-right: 5%;
+  padding: 0%;
+}
+
+@media (max-width: 1000px) {
+  .kontakt {
+    justify-content: center;
+    font-size: 100%;
+  }
+
+  .body2 {
+    background-image: url(../design/backgrounds/background_15.png);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-color: #ffffff;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar {
+    display: none;
+  }
+}

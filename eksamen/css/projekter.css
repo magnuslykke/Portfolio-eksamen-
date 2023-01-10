@@ -1,0 +1,359 @@
+p {
+  color: black;
+  font-family: montserrat;
+  line-height: 1.7;
+}
+
+.sort_skrift {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+}
+
+.sort_skrift_1 {
+  color: black;
+  text-align: center;
+  font-size: 140%;
+}
+
+.sort_skrift_2 {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+  margin-top: -10%;
+}
+
+.sort_skrift_3 {
+  color: black;
+  text-align: center;
+  font-size: 140%;
+  margin-left: -15%;
+}
+
+.sort_skrift1 {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 50%;
+}
+
+.sort_skrift2 {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+}
+
+.sort_skrift3 {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 17%;
+}
+
+.sort_skrift4 {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 75%;
+}
+
+.sort_skrift5 {
+  color: black;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 13%;
+}
+
+h3 {
+  font-family: montserrat;
+  text-align: center;
+  font-size: 55%;
+}
+
+.center {
+  text-align: center;
+  margin-top: 0%;
+}
+
+@media (min-width: 1000px) {
+  .tema2 {
+    position: absolute;
+    background-color: white;
+    top: 20%;
+    left: 10%;
+    padding: 3.7%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .tema3 {
+    position: absolute;
+    background-color: white;
+    top: 49%;
+    left: 30%;
+    padding: 3.7%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .tema4 {
+    position: absolute;
+    background-color: white;
+    top: 13%;
+    left: 41%;
+    padding: 3.7%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .tema5 {
+    position: absolute;
+    background-color: white;
+    top: 49%;
+    left: 56%;
+    padding: 3.7%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  .tema6 {
+    position: absolute;
+    background-color: white;
+    top: 18%;
+    left: 73%;
+    padding: 3.7%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .dropdown2 {
+    display: none;
+  }
+}
+
+.h2_tema5 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-align: center;
+  padding: 0%;
+}
+
+.p_tema5 {
+  margin-top: 12%;
+}
+
+.overskrift {
+  text-align: center;
+  padding: 5% 0% 0% 0%;
+}
+
+.h2_margin {
+  margin-top: 25%;
+}
+
+#grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid_1_1 {
+  padding: 10%;
+  margin: 10%;
+  background-color: white;
+}
+
+#grid_1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.grid_1 {
+  padding: 5%;
+  margin: 5% 10% 5% 10%;
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 1000px) {
+  #grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .tema2 {
+    background-color: white;
+    padding: 3.7%;
+    width: 200px;
+    height: 200px;
+    justify-self: center;
+    border-radius: 50%;
+    margin: 0% 10% 5% 20%;
+  }
+
+  .tema3 {
+    background-color: white;
+    padding: 3.7%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-self: center;
+    margin: 0% 10% 5% 20%;
+  }
+
+  .tema4 {
+    background-color: white;
+
+    padding: 3.7%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-self: center;
+    margin: 0% 10% 5% 20%;
+  }
+  .tema5 {
+    background-color: white;
+    padding: 3.7%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-self: center;
+    margin: 0% 10% 5% 20%;
+  }
+  .tema6 {
+    background-color: white;
+    padding: 3.7%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    justify-self: center;
+    margin: 0% 10% 5% 20%;
+  }
+
+  .sort_skrift_2 {
+    color: black;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 0%;
+  }
+
+  .sort_skrift_3 {
+    color: black;
+    text-align: center;
+    font-size: 140%;
+    margin-left: 0%;
+  }
+
+  .navbar2 {
+    display: none;
+  }
+
+  .tema3 h2 {
+    margin-top: 25%;
+  }
+
+  .tema6 h2 {
+    margin-top: 25%;
+  }
+
+  /* ------Index html--------- */
+
+  .navn {
+    /* opacity: 0; */
+    font-size: 100%;
+    top: 70%;
+    left: 40%;
+  }
+
+  .stilling {
+    /* opacity: 0; */
+    font-size: 100%;
+    top: 75%;
+    left: 40%;
+  }
+
+  .semester {
+    /* opacity: 0; */
+    font-size: 100%;
+    top: 80%;
+    left: 40%;
+  }
+
+  /* -----projekter---- */
+  .remove {
+    opacity: 0;
+  }
+
+  /*-----Om mig media----*/
+  .grid_1_1ommig {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5% 5% 0% 5%;
+    margin: 5%;
+    background-color: white;
+  }
+
+  .portrait {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    left: 0%;
+  }
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: montserrat;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #f5a9e3;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f5a9e3;
+}
+
+.show {
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  .dropdown {
+    display: none;
+  }
+}

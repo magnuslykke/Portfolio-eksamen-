@@ -1,0 +1,221 @@
+body {
+  background-image: url(/design/backgrounds/background_15.png);
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-color: #ffffff;
+  /* height: 100vh; */
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: right;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  font-family: montserrat;
+  color: rgb(253, 253, 253);
+  font-size: 22px;
+}
+
+a:hover {
+  background-color: #f5a9e3;
+  color: white;
+}
+
+/* .main_grid_1_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  } */
+
+h1 {
+  font-family: montserrat;
+  margin: 0px;
+  font-size: 68px;
+}
+
+.h1_a {
+  letter-spacing: 20px;
+}
+
+.h1_b {
+  letter-spacing: 28px;
+}
+
+.h1_c {
+  letter-spacing: 41px;
+}
+
+h2 {
+  font-family: montserrat;
+  font-size: 31px;
+}
+
+/* .projekter_box {
+    position: absolute;
+    background-color: aliceblue;
+    top: 350px;
+    left: 140px;
+    padding: 60px;
+    border-radius: 80px;
+  }
+  
+  .projekter {
+    color: black;
+  } */
+
+.midtbox {
+  position: absolute;
+  background-color: white;
+  top: 220px;
+  left: 540px;
+  padding: 48px 80px 48px 80px;
+  width: 200px;
+}
+
+/* .om_mig_box {
+    position: absolute;
+    background-color: aliceblue;
+    top: 350px;
+    left: 1040px;
+    padding: 60px;
+  }
+  
+  .ommig {
+    color: black;
+  } */
+
+.navn {
+  font-family: montserrat;
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  color: white;
+  font-size: 22px;
+}
+
+.stilling {
+  font-family: montserrat;
+  position: absolute;
+  bottom: 30px;
+  left: 370px;
+  color: white;
+  font-size: 22px;
+}
+
+.semester {
+  font-family: montserrat;
+  position: absolute;
+  bottom: 30px;
+  left: 620px;
+  color: white;
+  font-size: 22px;
+}
+
+.streg {
+  position: absolute;
+  border-right: white solid 10px;
+  margin: 27px 0px 0px 20px;
+  opacity: 0.6;
+  height: 87.5%;
+}
+
+.streg_2 {
+  position: absolute;
+  border-top: white solid 10px;
+  margin: 17px 0px 0px 20px;
+  opacity: 0.6;
+  width: 61%;
+}
+
+.streg_3 {
+  position: absolute;
+  border-left: white solid 10px;
+  margin: 37px 0px 0px 1405px;
+  opacity: 0.6;
+  height: 86.5%;
+}
+
+.streg_4 {
+  position: absolute;
+  border-bottom: white solid 10px;
+  margin: 737px 0px 0px 755px;
+  opacity: 0.6;
+  width: 45.15%;
+}
+
+/* div {
+    position: fixed;
+  } */
+
+/* -----OM MIG---------*/
+/* .ommig_body {
+    background-image: url(/design/backgrounds/background_15.png);
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-color: #ffffff;
+    /* height: 200vh; */
+/* her skal jeg huske at indstille størrelsen til baggrunden */
+
+.ommig {
+  background-color: white;
+  margin: 5%;
+}
+
+.grid_1_1ommig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5% 5% 0% 5%;
+  margin: 5%;
+  background-color: white;
+}
+
+img {
+  position: relative;
+  left: 15%;
+  max-width: 100%;
+}
+
+.img_cv {
+  max-width: 75%;
+}
+
+.img_cv1 {
+  max-width: 75%;
+  padding-bottom: 10%;
+}
+
+/* -----KONTAKT HTML------ */
+
+.kontakt {
+  background-color: white;
+  position: absolute;
+  font-family: montserrat;
+  font-size: 230%;
+  padding: 4%;
+  top: 20%;
+  left: 20%;
+}
+
+.kontakt p {
+  margin-top: 0%;
+}
+
+.grid_1_1_1 {
+  display: flex;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.kontakt_a {
+  font-family: montserrat;
+  font-size: 100%;
+  color: black;
+  margin-left: 0%;
+  margin-right: 5%;
+  padding: 0%;
+}
